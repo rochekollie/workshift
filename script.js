@@ -162,7 +162,7 @@ const createNewEvent = () => {
 };
 
 window.onload = function () {
-    dailyTasks = getTask();
+    // dailyTasks = getTask();
     getSavedTasks();
     setInterval(function () {
         const currentHour = getCurrentHour();
