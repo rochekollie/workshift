@@ -158,7 +158,8 @@ const getSavedTasks = () => {
     });
 }
 
-const createNewEvent = () => {};
+const createNewEvent = () => {
+};
 
 window.onload = function () {
     dailyTasks = getTask();
@@ -199,23 +200,23 @@ window.onload = function () {
     }, 1000);
 }
 
-timeBlocks.forEach(function (timeBlock) {
-    const hoverBlock = timeBlock.querySelector('.task');
-    hoverBlock.addEventListener('mouseover', function () {
-        hoverBlock.style.cursor = 'pointer';
-        hoverBlock.appendChild(document.createElement('span'));
-        hoverBlock.querySelector('span').textContent = 'Click to edit';
-    });
-
-    hoverBlock.addEventListener('mouseout', function () {
-        hoverBlock.querySelector('span').style.display = 'none';
-    });
-
-    hoverBlock.addEventListener('click', function () {
-        hoverBlock.querySelector('span').textContent = '';
-        hoverBlock.querySelector('span').style.display = 'none';
-    });
-});
+// timeBlocks.forEach(function (timeBlock) {
+//     const hoverBlock = timeBlock.querySelector('.task');
+//     hoverBlock.addEventListener('mouseover', function () {
+//         hoverBlock.style.cursor = 'pointer';
+//         hoverBlock.appendChild(document.createElement('span'));
+//         hoverBlock.querySelector('span').textContent = 'Click to edit';
+//     });
+//
+//     hoverBlock.addEventListener('mouseout', function () {
+//         hoverBlock.querySelector('span').style.display = 'none';
+//     });
+//
+//     hoverBlock.addEventListener('click', function () {
+//         hoverBlock.querySelector('span').textContent = '';
+//         hoverBlock.querySelector('span').style.display = 'none';
+//     });
+// });
 
 
 function getElementText(element) {
