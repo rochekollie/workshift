@@ -18,8 +18,9 @@ header {
     padding: 3rem;
     margin-bottom: 1.5rem;
     border-width: 5px;
-    border-bottom: 1px solid #212529;
+    border-bottom: solid thin rgba(0, 0, 0, 0.1);
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 header p {

@@ -5,6 +5,9 @@
 # idx
 .idx
 
+#Fleet
+.fleet
+
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
